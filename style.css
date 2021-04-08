@@ -693,8 +693,9 @@ text-align: center;
         display: contents;
     }
     .map1 {
-        display:block;
-         text-align: -moz-center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
      }
     .green-cards {
         display: flex;
