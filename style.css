@@ -38,6 +38,7 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .menu {
     display: flex;
@@ -326,6 +327,12 @@ text-align: center;
     color: #0C811B;
     display: flex;
     justify-content: center;
+}
+.section-btn {
+    cursor: pointer;
+}
+.closed {
+    cursor: pointer;
 }
 .connection-info {
     font-family: Montserrat;
@@ -761,3 +768,49 @@ text-align: center;
         text-align: center;
     }
 }
+.menu-activ {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.menu_2 {
+    display: none;
+    flex-direction: column;
+
+}
+.line {
+    border: 1px solid white;
+    width: 248px;
+    margin-left: 30px;
+}
+.now-menu-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 30px;
+}
+.now-menu_2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+.closed {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 48px;
+}
+
+
